@@ -1,0 +1,461 @@
+@font-face {
+    font-family: 'Akira Expanded';
+    src: url(../ttf/Akira\ Expanded\ Demo.otf);
+}
+
+* {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../img/bg.png);
+}
+
+/*CABECALHO*/
+
+.logo img {
+    width: 7%;
+    height: 7%;
+    margin-left: 55.5rem;
+ 
+}
+
+.logo nav li {
+    display: inline-block;
+    padding: 0.9375rem;
+    transition: 0.5s all;
+}
+
+.logo nav li:hover {
+    transform: scale(1.2);
+}
+
+.logo nav {
+    margin-top: -1rem;
+    text-align: center;
+}
+
+.logo nav a {
+    color: white;
+    font-family: 'Akira Expanded';
+}
+
+/*PRODUTOS*/
+
+.calca {
+    width: 12.5rem;
+    height: 21.25rem;
+    background: white;
+    border: none;
+    border-radius: 0 0.9375rem 0 0.9375rem;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    text-align: center;
+    transition: 0.5s all;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1.1875rem 2.375rem, rgba(0, 0, 0, 0.22) 0px 0.9375rem 0.75rem;
+    cursor: pointer;
+    
+}
+
+.calca:hover {
+    transform: scale(1.2);
+
+}
+
+.calca h3, h4 {
+    font-family: 'Akira Expanded';
+}
+
+.calca h3 {
+    margin-top: 15rem;
+    font-size: 1.875rem;
+}
+
+.calca img {
+    width: 10rem;
+    height: 12rem;
+    position: absolute;
+    top: 7%;
+    right: 10%;
+}
+
+.moletom {
+    width: 12.5rem;
+    height: 21.25rem;
+    background: white;
+    border: none;
+    border-radius: 0 0.9375rem 0 0.9375rem;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    transition: 0.5s all;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1.1875rem 2.375rem, rgba(0, 0, 0, 0.22) 0px 0.9375rem 0.75rem;
+    cursor: pointer;
+}
+
+.moletom:hover {
+    transform: scale(1.2);
+
+}
+
+.moletom h3, h4 {
+    font-family: 'Akira Expanded';
+}
+
+.moletom h3 {
+    margin-top: 15rem;
+    font-size: 1.875rem;
+}
+
+.moletom img {
+    width: 11rem;
+    height: 12rem;
+    position: absolute;
+    top: 7%;
+    right: 3%;
+}
+
+.tee {
+    width: 12.5rem;
+    height: 21.25rem;
+    background: white;
+    border: none;
+    border-radius: 0 0.9375rem 0 0.9375rem;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    text-align: center;
+    transition: 0.5s all;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1.1875rem 2.375rem, rgba(0, 0, 0, 0.22) 0px 0.9375rem 0.75rem;
+    cursor: pointer;
+}
+
+.tee:hover {
+    transform: scale(1.2);
+
+}
+
+.tee h3, h4 {
+    font-family: 'Akira Expanded';
+}
+
+.tee h3 {
+    margin-top: 15rem;
+    font-size: 1.875rem;
+}
+
+.tee img {
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 7%;
+    right: 3%;
+}
+
+.tag {
+    width: 12.5rem;
+    height: 21.25rem;
+    background: white;
+    border: none;
+    border-radius: 0 0.9375rem 0 0.9375rem;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    text-align: center;
+    transition: 0.5s all;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1.1875rem 2.375rem, rgba(0, 0, 0, 0.22) 0px 0.9375rem 0.75rem;
+    cursor: pointer;
+}
+
+.tag:hover {
+    transform: scale(1.2);
+
+}
+
+.tag h3, h4 {
+    font-family: 'Akira Expanded';
+}
+
+.tag h3 {
+    margin-top: 15rem;
+    font-size: 1.875rem;
+}
+
+.tag img {
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 7%;
+    right: 3%;
+}
+
+.cushion {
+    width: 12.5rem;
+    height: 21.25rem;
+    background: white;
+    border: none;
+    border-radius: 0 0.9375rem 0 0.9375rem;
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    text-align: center;
+    transition: 0.5s all;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1.1875rem 2.375rem, rgba(0, 0, 0, 0.22) 0px 0.9375rem 0.75rem;
+    cursor: pointer;
+}
+
+.cushion:hover {
+    transform: scale(1.2);
+
+}
+
+.cushion h3, h4 {
+    font-family: 'Akira Expanded';
+}
+
+.cushion h3 {
+    margin-top: 15rem;
+    font-size: 1.875rem;
+}
+
+.cushion img {
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 7%;
+    right: 3%;
+}
+
+.rosa {
+    width: 12.5rem;
+    height: 21.25rem;
+    background: white;
+    border: none;
+    border-radius: 0 0.9375rem 0 0.9375rem;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    text-align: center;
+    transition: 0.5s all;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1.1875rem 2.375rem, rgba(0, 0, 0, 0.22) 0px 0.9375rem 0.75rem;
+    cursor: pointer;
+}
+
+.rosa:hover {
+    transform: scale(1.2);
+
+}
+
+.rosa h3, h4 {
+    font-family: 'Akira Expanded';
+}
+
+.rosa h3 {
+    margin-top: 15rem;
+    font-size: 1.875rem;
+}
+
+.rosa img {
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 7%;
+    right: 3%;
+}
+
+.socks {
+    width: 12.5rem;
+    height: 21.25rem;
+    background: white;
+    border: none;
+    border-radius: 0 0.9375rem 0 0.9375rem;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    text-align: center;
+    transition: 0.5s all;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1.1875rem 2.375rem, rgba(0, 0, 0, 0.22) 0px 0.9375rem 0.75rem;
+    cursor: pointer;
+}
+
+.socks:hover {
+    transform: scale(1.2);
+
+}
+
+.socks h3, h4 {
+    font-family: 'Akira Expanded';
+}
+
+.socks h3 {
+    margin-top: 15rem;
+    font-size: 1.875rem;
+}
+
+.socks img {
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 7%;
+    right: 3%;
+}
+
+.utopia {
+    width: 12.5rem;
+    height: 21.25rem;
+    background: white;
+    border: none;
+    border-radius: 0 0.9375rem 0 0.9375rem;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    text-align: center;
+    transition: 0.5s all;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1.1875rem 2.375rem, rgba(0, 0, 0, 0.22) 0px 0.9375rem 0.75rem;
+    cursor: pointer;
+}
+
+.utopia:hover {
+    transform: scale(1.2);
+
+}
+
+.utopia h3, h4 {
+    font-family: 'Akira Expanded';
+}
+
+.utopia h3 {
+    margin-top: 15rem;
+    font-size: 1.875rem;
+}
+
+.utopia img {
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 7%;
+    right: 3%;
+}
+
+.cena2k22 {
+    width: 12.5rem;
+    height: 21.25rem;
+    background: white;
+    border: none;
+    border-radius: 0 0.9375rem 0 0.9375rem;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    text-align: center;
+    transition: 0.5s all;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1.1875rem 2.375rem, rgba(0, 0, 0, 0.22) 0px 0.9375rem 0.75rem;
+    cursor: pointer;
+}
+
+.cena2k22:hover {
+    transform: scale(1.2);
+
+}
+
+.cena2k22 h3, h4 {
+    font-family: 'Akira Expanded';
+}
+
+.cena2k22 h3 {
+    margin-top: 14rem;
+    font-size: 1.875rem;
+}
+
+.cena2k22 img {
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 7%;
+    right: 3%;
+}
+
+.balaclava {
+    width: 12.5rem;
+    height: 21.25rem;
+    background: white;
+    border: none;
+    border-radius: 0 0.9375rem 0 0.9375rem;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    text-align: center;
+    transition: 0.5s all;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1.1875rem 2.375rem, rgba(0, 0, 0, 0.22) 0px 0.9375rem 0.75rem;
+    cursor: pointer;
+}
+
+.balaclava:hover {
+    transform: scale(1.2);
+
+}
+
+.balaclava h3, h4 {
+    font-family: 'Akira Expanded';
+}
+
+.balaclava h3 {
+    margin-top: 15rem;
+    font-size: 1.875rem;
+}
+
+.balaclava img {
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 7%;
+    right: 3%;
+}
+
+.miami {
+    width: 12.5rem;
+    height: 21.25rem;
+    background: white;
+    border: none;
+    border-radius: 0 0.9375rem 0 0.9375rem;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    text-align: center;
+    transition: 0.5s all;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1.1875rem 2.375rem, rgba(0, 0, 0, 0.22) 0px 0.9375rem 0.75rem;
+    cursor: pointer;
+}
+
+.miami:hover {
+    transform: scale(1.2);
+
+}
+
+.miami h3, h4 {
+    font-family: 'Akira Expanded';
+}
+
+.miami h3 {
+    margin-top: 14rem;
+    font-size: 1.875rem;
+}
+
+.miami img {
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 7%;
+    right: 3%;
+}
+
+/*rodape*/
+
+footer {
+    text-align: center;
+    color: white;
+    font-family: 'Akira Expanded';
+    margin-top: 59rem;
+    margin-bottom: 2.7rem;
+}
